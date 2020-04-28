@@ -1,0 +1,89 @@
+html, body {
+    height: 100%; margin:0; 
+}
+
+header {
+    height: 50px;
+}
+footer{
+    height: 50px;
+}
+
+body{ 
+  display: flex; 
+  flex-direction: column; 
+}
+
+footer{
+  margin-top:auto; 
+}
+
+.horizontal-flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-items-spacing {
+    display: flex;
+}
+
+.top-items-spacing > div {
+    padding: 20px 10px 0px 10px;
+}
+
+.center {
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.letter {
+    font-size: 85px;
+}
+
+.grey-font {
+    font-size: 13px;
+    color: rgba(0, 0, 0, 87);
+}
+
+.form-buttons {
+    margin: 11px 4px;
+    font-size: 14px;
+    color: #5F6368;
+    background-color: #F2F2F2;
+    line-height: 27px;
+    border-radius: 4px;
+    height: 36px;
+    padding: 0 16px;
+    border: 1px solid #f2f2f2;
+}
+
+.form-buttons:hover {
+    border: 1px solid #ccc;
+    box-shadow: 0 1px 1px 0 rgba (32,33,36,0.28);
+}
+
+#search-bar {
+    border: 1px solid #ccc;
+    width: 582px;
+    height: 44px;
+    background-color: #fff;
+    border-radius: 24px;
+    box-shadow: none;
+}
+
+#text-input {
+    display: block;
+    width: 530px;
+    height: 34px;
+    margin: auto;
+    border: none;
+    margin-top: 4px;
+}
+
+input:focus {
+    outline: none;
+    font-size: 16px;
+}
